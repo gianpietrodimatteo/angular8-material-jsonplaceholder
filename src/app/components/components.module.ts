@@ -22,11 +22,12 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { TreeComponent } from './tree/tree.component';
 import { MatTreeModule } from '@angular/material/tree';
+import { AllComponent } from './all/all.component';
 
 
 
 @NgModule({
-  declarations: [AddressFormComponent, NavigationComponent, TableComponent, DashboardComponent, TreeComponent],
+  declarations: [AddressFormComponent, NavigationComponent, TableComponent, DashboardComponent, TreeComponent, AllComponent],
   imports: [
     CommonModule,
     MatInputModule,
